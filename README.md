@@ -5,12 +5,12 @@ Helm chart for deployment of kube-eagle in Kubernetes.
 ## Installing helm chart
 
 ```bash
-helm repo add kube-eagle https://raw.githubusercontent.com/cloudworkz/kube-eagle-helm-chart/master
+helm repo add kube-eagle https://raw.githubusercontent.com/liorfranko/kube-eagle-eks-helm-chart/master
 helm repo update
 helm install kube-eagle kube-eagle/kube-eagle
 ```
 
-If using helm version 2 : 
+If using helm version 2 :
 
 ```bash
 helm install --name=kube-eagle kube-eagle/kube-eagle
